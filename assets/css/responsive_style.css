@@ -17,3 +17,10 @@ h5 {font-size: 25px;}
 h2 {font-size: 40px !important;}
 
 }
+
+@media only screen and (max-width:400px){
+h5 {font-size: 22px  !important;}
+h2 {font-size: 28px !important;}
+#hero_section {height: 88vh !important;  } 
+#hero_section .banner_content { margin-bottom: 400px;}
+}
