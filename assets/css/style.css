@@ -16,6 +16,13 @@ ul{margin:0;padding:0;}
 ul li {list-style:none;}
 .row{padding: 0 !important;padding-left:0 !important;}
 
+
+
+/* loader */
+#preloader{position:fixed; top:0; left:0; right:0; bottom:0; background-color:#fff; z-index:99999}
+#status{width:200px; height:200px; position:absolute; left:50%; top:50%; background-image:url(../../images/status.gif); background-repeat:no-repeat; background-position:center; margin:-100px 0 0 -100px}
+/* loader */
+
 button{border-radius: 5px;border: 1px solid var(--grey-600, #4F5963);}
 .btn_outline{background-color: transparent !important;}
 .btn{color: #ffffff;  border-radius: 5px;font-size: 14px;display: inline-block;overflow: hidden;transition: color 0.3s ease;-webkit-transition: color 0.3s ease;position: relative;transform: translateZ(0px);-webkit-transform: translateZ(0px);padding: 9px 23px;border: 1px solid #4F4F4F;background:#22262A;}

@@ -1,3 +1,19 @@
+
+// <!-- loader -->
+  jQuery(window).load(function() { // makes sure the whole site is loaded
+	  $('#status').fadeOut(); // will first fade out the loading animation
+	  $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
+	  $('body').delay(100).css({
+		  'overflow': 'visible'
+	  });
+  })
+// <!-- loader -->
+
+
+
+
+
+// destop height
 document.addEventListener('DOMContentLoaded', function () {
 	function setHeight() {
 		const windowHeight = window.innerHeight;
@@ -19,6 +35,9 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Adjust on window resize
 	window.addEventListener('resize', setHeight);
   });
+
+  // destop height
+  
   
   
   // Menus
