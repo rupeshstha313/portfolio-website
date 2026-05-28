@@ -171,7 +171,7 @@ nav{padding: 0 20px!important;background-color: #333;}
 
 #hero_section::before {
     background-image: url('../../images/rup-1.png'); /* First image */
-	right: -5%;
+	right: -2%;
     width: 600px;
     height: 500px;
     bottom: 0;
